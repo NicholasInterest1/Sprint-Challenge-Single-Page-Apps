@@ -1,5 +1,9 @@
 body {
-  margin: 0;
+  background-image: url('https://images5.alphacoders.com/876/876590.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  margin-right: 500px;
   padding: 0;
   font-family: sans-serif;
 }
@@ -27,13 +31,21 @@ main {
 .grid-view div.card.ui {
   margin: 1.25rem;
 }
-/*
-.main-img {
-  display: block;
-  border-radius: 100%;
-  margin: 0 auto;
-} */
 
 header h1 {
   text-align: center;
+}
+
+
+.character-list, .card-container, .location-list, .episode-list {
+  background-color: #262C3A;
+  border-radius: 10px;
+}
+
+.header-style {
+  background-color: #B5EDFC;
+}
+
+.item {
+  background-color: #262C3A;
 }
